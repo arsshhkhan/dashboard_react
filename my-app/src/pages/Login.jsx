@@ -45,9 +45,10 @@ const Login = () => {
                     Remember for 30 days
                   </label>
                 </div>
-                <a href="#" className="forgot-pass-link">
-                  Forgot password?
-                </a>
+                <Link to="/forget-password" className="forgot-password-main">
+                     Forgot password?
+                    </Link>
+
               </div>
               
               <div className="register-center-buttons">
@@ -70,4 +71,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Login;                                                                                        

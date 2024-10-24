@@ -1,7 +1,8 @@
 
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import { HomeLayout, Landing, Login, Logout, Register } from "./pages";
+import { HomeLayout, Landing, Login, Logout, Register, } from "./pages";
 import { ToastContainer } from 'react-toastify';
+import ForgetPassword from "./pages/ForgetPassword";
 
 const router = createBrowserRouter([
   {
@@ -23,7 +24,8 @@ const router = createBrowserRouter([
       {
         path: "logout",
         element: <Logout />,
-      }
+      },
+      { path: "forget-password", element: <ForgetPassword /> },
     ],
   },
 ]);

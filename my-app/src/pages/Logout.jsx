@@ -4,7 +4,7 @@ const Logout = () => {
 
   return (
     <div className='logout-main'>
-    <h1>Logout Successful!</h1>
+    <h2>Logout Successful!</h2>
     <p>You will be redirected to the landing page in 3 seconds...</p>
   </div>
   )
